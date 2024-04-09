@@ -143,7 +143,9 @@ vim.o.hlsearch = false
 vim.wo.number = true
 
 -- Enable mouse mode
-vim.o.mouse = 'a'
+-- vim.o.mouse = 'a'
+-- Enable mouse only for right click selections
+vim.o.mousemodel = 'extend'
 
 -- Indent
 -- currently being handled by treesitter
