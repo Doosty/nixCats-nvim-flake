@@ -89,7 +89,6 @@
             hlargs
           ];
           vimPlugins = {
-            # you can make a subcategory
             cmp = with pkgs.vimPlugins; [
               # cmp stuff
               nvim-cmp
@@ -220,7 +219,6 @@
             ];
             thing4 = "couch is for scratching";
           };
-          # see :help nixCats
         };
       };
     };
