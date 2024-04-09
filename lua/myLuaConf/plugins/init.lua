@@ -226,7 +226,7 @@ require("toggleterm").setup()
 vim.keymap.set('n', '<leader>tt', '<Cmd>ToggleTerm<CR>', { desc = 'ToggleTerm' })
 
 -- Neo Tree
-require("neo-tree").setup( { source_selector = { winbar = true, statusline = true }} )
+require("neo-tree").setup( { source_selector = { winbar = true, statusline = true }, filesystem = { follow_current_file = { enabled = true } } })
 vim.keymap.set('n', '<leader>ft', '<Cmd>Neotree toggle<CR>', { desc = 'NeoTree' })
 
 -- OSC Yank
