@@ -56,6 +56,7 @@
           zig # here as a c compiler
         ];
         csharpdev = with pkgs; [
+          # csharp-ls # lsp
           omnisharp-roslyn # lsp
           netcoredbg # debugger
           uncrustify # formatter
